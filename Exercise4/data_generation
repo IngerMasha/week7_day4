@@ -1,0 +1,27 @@
+import pandas as pd
+import numpy as np
+from faker import Faker
+
+# Initialize Faker
+fake = Faker()
+
+# Generate synthetic data
+data = []
+for _ in range(100):
+    name = fake.name()
+    # print(name)
+    address = fake.address().replace('\n', ', ')
+    email = fake.email()
+    data.append([name, address, email])
+    # print([name, address, email])
+# print(data)
+df = pd.DataFrame(data, columns=['Name', 'Address', 'Email'])
+np.random.seed(0)
+df['Age'] = np.random.randint(20, 61, size=100)
+df['Income'] = np.random.randint(30000, 100001, size=100)
+
+pd.set_option('display.max_columns', None)
+pd.set_option('display.max_colwidth', None)
+pd.set_option('display.width', None)
+
+print(df.head(10))
