@@ -1,0 +1,57 @@
+ Exercise 1 : Identifying Data Types
+Instructions
+Below are various data sources. Identify whether each one is an example of structured or unstructured data.
+
+•	A company’s financial reports stored in an Excel file.
+•	Photographs uploaded to a social media platform.
+•	A collection of news articles on a website.
+•	Inventory data in a relational database.
+•	Recorded interviews from a market research study.
+Structured - numerical data:
+•	A company’s financial reports stored in an Excel file.
+•	Inventory data in a relational database.
+Unstructured - photos, texts, audio files:
+•	Photographs uploaded to a social media platform.
+•	A collection of news articles on a website.
+•	Recorded interviews from a market research study.
+
+Exercise 2 : Transformation Exercise
+Instructions
+For each of the following unstructured data sources, propose a method to convert it into structured data. Explain your reasoning.
+-A series of blog posts about travel experiences.
+-Audio recordings of customer service calls.
+-Handwritten notes from a brainstorming session.
+-A video tutorial on cooking.
+
+-A series of blog posts about travel experiences:
+-Natural language processing:
+Extract data from posts about locations, travel dates, time spent in each city, attractions, food prices, and transportation costs and quantities. This information can be conveniently placed into database tables.
+
+-Audio recordings of customer service calls:
+-Speech recognition and conversion to text:
+Transcribe the call text, including the caller's name, description of the issue, and categorize it (similar to the American 911 service, where there are codes for robbery, armed or not, assault with a cold weapon or firearm, etc.), address, phone number, call time, and duration.
+
+-Handwritten notes from a brainstorming session:
+-Conversion of handwritten notes and drawings to text:
+Extract key points from the text, highlighting key ideas, their authors, and steps for each idea.
+
+-A video tutorial on cooking:
+-Video analysis, possibly with subtitles, to obtain a structured text:
+Extract the recipe, data on all ingredients, their exact quantities, cooking time, and step-by-step instructions. This can be converted into a table or several related tables with columns for ingredients, cooking time, recipe, and complexity.
+
+Exercise 3 : Application Scenario
+Instructions
+You are a data analyst at a retail company. You have access to various data sources, including transaction records, customer feedback comments, social media posts about your brand, and employee work schedules.
+
+Categorize each of these data sources as structured or unstructured.
+Suggest how you might use each type of data for improving the company’s business operations.
+
+Structured Data:
+Transaction records: These can be used to generate sales reports and analyze trends. For example, identifying the largest target audience (e.g., families with children, youth, etc.) and determining sales volumes by city and product category. This information can help optimize inventory and storage, as well as marketing strategies.
+Employee work schedules: Work schedules are crucial for maintaining an optimal number of staff based on customer flow (e.g., four cashiers and five consultants during peak hours, and two cashiers and two consultants early in the morning). By tracking individual sales performance, schedules can be adjusted to maintain overall sales levels and meet employees' required working hours. Schedules also consider training new employees, receiving goods and store occupancy. Well-planned schedules improve service quality, employee satisfaction, and reduce labor costs.
+
+Unstructured Data:
+Customer feedback comments: These can be analyzed using natural language processing to identify key points (e.g., customer satisfaction, reasons for dissatisfaction such as product mismatch, inaccurate battery life, or frequent breakdowns). This information helps improve customer service. Feedback forms can ask customers to rate products and select reasons for their ratings (e.g., product defect, delivery issues, mismatch with description) or provide their own reasons. This simplifies support services and enhances customer relations.
+Social media posts about your brand: Monitoring and analyzing social media posts helps gauge public opinion about the brand and track the success of marketing campaigns by seeing which posts generate the most engagement. Quick responses to negative comments or viral posts are crucial. For example, in the U.S., when a woman’s car burned down but her thermal cup remained intact with ice inside, the video went viral. The company quickly reached out, bought her a new car, and gave her another thermal cup.
+
+
