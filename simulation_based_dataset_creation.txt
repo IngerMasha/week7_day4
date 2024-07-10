@@ -1,0 +1,58 @@
+1. Simulation Parameters
+Types of vehicles:
+- Cars
+- Trucks
+- Buses
+- Trams
+- Motorcycles
+- E-bikes and scooters
+
+Types of roads:
+- Main roads
+- Secondary roads
+- One-way streets
+- Roundabouts
+- Pedestrian zones
+- Single-lane and multi-lane roads
+
+Traffic signals and other control devices:
+- Traffic lights
+- Road signs
+
+Road congestion (found online):
+- Morning peak hours (7:00 - 9:00)
+- Daytime (9:00 - 17:00)
+- Evening peak hours (17:00 - 19:00)
+- Nighttime (19:00 - 7:00)
+
+2. City model creation:
+- Generate a city map with all types of roads.
+- Place traffic lights and road signs at intersections, pedestrian crossings, and areas near schools, kindergartens, and parks.
+- Generate zones with different types of buildings (residential, commercial, industrial, landmarks).
+
+Traffic simulation:
+- Define routes for various types of public transport.
+- Determine vehicle behavior (speed, distance, behavior at intersections).
+- Consider the impact of traffic lights and signs on movement.
+
+Time of day scenarios:
+- Simulate changes in traffic density depending on the time of day.
+- Consider various events (accidents, road repairs, weather conditions) and their probability at different times.
+
+3. Data Collection and Utilization
+Data types:
+- Number of vehicles on certain road sections at different times.
+- Average speed on certain road sections.
+- Waiting time at traffic lights.
+- Number of traffic violations.
+- Travel time from one point to another.
+
+Applications:
+- Traffic management: Optimize traffic light settings to reduce congestion,
+develop strategies to respond to accidents and incidents, plan measures to improve road capacity.
+- Urban planning: Analyze current infrastructure and plan new roads or expansions,
+assess the impact of new construction projects on traffic, develop zones with traffic
+restrictions to improve urban environments.
+- Public transport: Optimize routes and schedules, increase accessibility and attractiveness for residents.
+- Environmental analysis: Assess vehicle emissions based on traffic conditions,
+develop measures to reduce air pollution and improve environmental conditions.
